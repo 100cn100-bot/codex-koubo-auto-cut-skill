@@ -1,0 +1,725 @@
+{
+  "schemaVersion": "0.1.0",
+  "componentLibrary": "talking-head-business-tech-style",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "layout": "16:9"
+  },
+  "globalStyle": {
+    "theme": "dark_talking_head_business_tech",
+    "titleColor": "#FFFFFF",
+    "accentColor": "#F6B83F",
+    "techBlue": "#4EA3FF",
+    "dangerRed": "#FF4B4B",
+    "fontFamily": "PingFang SC, Inter, Arial, sans-serif"
+  },
+  "videos": [
+    {
+      "id": "ai_ecommerce_longform_bilingual_01",
+      "compositionId": "AIEcommerceLongformBilingual01",
+      "title": "AI生图与电商提效长版双语分镜",
+      "duration": 131,
+      "scenes": [
+        {
+          "id": "s01",
+          "start": 0,
+          "duration": 6,
+          "voiceover": "有没有可能现在AI生成的图，如果不给你AI提示的话，你是根本分辨不出来的。",
+          "subtitle": {
+            "zh": "如果不提示是AI图，你可能已经分辨不出来了",
+            "en": "Without a hint, many AI visuals are already hard to identify."
+          },
+          "overlays": [
+            {
+              "type": "headline_banner",
+              "layer": "titles",
+              "props": {
+                "title": "你可能已经分辨不出来",
+                "subtitle": "Many AI images are already hard to spot unless someone tells you first.",
+                "tone": "light"
+              },
+              "animation": "banner_pop",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 72
+              }
+            }
+          ],
+          "keywords": [
+            "开场反问",
+            "双语标题",
+            "认知反差"
+          ]
+        },
+        {
+          "id": "s02",
+          "start": 6,
+          "duration": 6,
+          "voiceover": "AI去助力电商的这个提效，就是有人会说啊，我看到AI的图就会直接划走啊，不想看了啊，就觉得没有信任感。",
+          "subtitle": {
+            "zh": "有人会说：AI 图一出现，我就直接划走，因为没有信任感",
+            "en": "Some viewers instantly skip AI-looking product images because they do not trust them."
+          },
+          "overlays": [
+            {
+              "type": "speech_bubble_card",
+              "layer": "cards",
+              "props": {
+                "title": "AI 图一出现，我就划走",
+                "subtitle": "Some viewers instantly scroll away when an image feels AI-generated.",
+                "tone": "green"
+              },
+              "animation": "bubble_pop",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 72
+              }
+            }
+          ],
+          "keywords": [
+            "用户疑虑",
+            "双语气泡",
+            "信任感"
+          ]
+        },
+        {
+          "id": "s03",
+          "start": 12,
+          "duration": 6,
+          "voiceover": "我能特别理解你的这样的一个想法。但是你有没有想过，有没有可能现在AI生成的图，如果不给你AI提示的话，你是根本分辨不出来的。",
+          "subtitle": {
+            "zh": "这个顾虑可以理解，但问题是：现在很多 AI 图不提示你根本看不出来",
+            "en": "That concern makes sense, but many AI visuals already pass without being noticed."
+          },
+          "overlays": [
+            {
+              "type": "final_verdict",
+              "layer": "titles",
+              "props": {
+                "verdict": "COUNTERPOINT",
+                "title": "顾虑可以理解",
+                "subtitle": "But the real shift is this: many AI images already blend in unless they are explicitly labeled.",
+                "badges": [
+                  "可理解",
+                  "Hidden in plain sight"
+                ]
+              },
+              "animation": "verdict_pop"
+            }
+          ],
+          "keywords": [
+            "反转",
+            "双语结论",
+            "认知更新"
+          ]
+        },
+        {
+          "id": "s04",
+          "start": 18,
+          "duration": 6,
+          "voiceover": "而且现在的AI图是可以很好的保持它的一致性的。就以AI换装为例。",
+          "subtitle": {
+            "zh": "现在的 AI 图已经能比较稳定地保持一致性，比如 AI 换装",
+            "en": "AI visuals now keep much stronger consistency, especially in use cases like AI outfit changes."
+          },
+          "overlays": [
+            {
+              "type": "progress_compare",
+              "layer": "kpis",
+              "props": {
+                "title": "一致性正在变强",
+                "leftLabel": "一致性保持 / Consistency",
+                "leftValue": 78,
+                "rightLabel": "随机失控 / Breakdown",
+                "rightValue": 22,
+                "note": "AI outfit changes are a good example of this shift."
+              },
+              "animation": "scale_pop"
+            }
+          ],
+          "keywords": [
+            "一致性",
+            "中英标签",
+            "AI换装"
+          ]
+        },
+        {
+          "id": "s05",
+          "start": 24,
+          "duration": 6,
+          "voiceover": "你有没有想过，它其实就是一个更高级的Photoshop，就更高级的一个PS。",
+          "subtitle": {
+            "zh": "你可以把它理解成一个更高级的 Photoshop",
+            "en": "The easiest way to understand it is as a more advanced Photoshop."
+          },
+          "overlays": [
+            {
+              "type": "before_after_compare",
+              "layer": "cards",
+              "props": {
+                "title": "更高级的 Photoshop",
+                "beforeLabel": "传统PS / Traditional PS",
+                "afterLabel": "AI生图 / AI imaging",
+                "beforeText": "手工修细节",
+                "afterText": "更自动、更完整"
+              },
+              "animation": "compare_in"
+            }
+          ],
+          "keywords": [
+            "Photoshop类比",
+            "双语对比",
+            "理解门槛"
+          ]
+        },
+        {
+          "id": "s06",
+          "start": 30,
+          "duration": 7,
+          "voiceover": "再回想到我们传统的电商时代，那我们在拍摄这些电商图，淘宝图也好，有谁不去修图吗？难道我们真的是追求真实吗？肯定不是啊。",
+          "subtitle": {
+            "zh": "传统电商时代本来就在修图，大家追求的从来不是“绝对原始真实”",
+            "en": "Traditional e-commerce has always depended on retouching, not untouched realism."
+          },
+          "overlays": [
+            {
+              "type": "platform_icon_compare",
+              "layer": "cards",
+              "props": {
+                "platforms": [
+                  {
+                    "name": "淘宝"
+                  },
+                  {
+                    "name": "Photoshop"
+                  }
+                ],
+                "relation": "plus",
+                "title": "传统电商本来就离不开拍摄 + 修图",
+                "highlight": "修图",
+                "subtitle": "The real question is not whether to retouch, but how far you should go."
+              },
+              "animation": "platform_icons_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 64
+              }
+            }
+          ],
+          "keywords": [
+            "传统电商",
+            "双语品牌关系",
+            "修图共识"
+          ]
+        },
+        {
+          "id": "s07",
+          "start": 37,
+          "duration": 7,
+          "voiceover": "我们肯定会去美化，去修图，但是你要掌握好这个美化的度，这个修图的度，对吗？你不能去无中生有，那样肯定会提高你的退货率。",
+          "subtitle": {
+            "zh": "可以美化，但必须控制修图的度；一旦无中生有，就会抬高退货风险",
+            "en": "Enhancement is fine, but fabrication pushes return risk up."
+          },
+          "overlays": [
+            {
+              "type": "slider_gauge",
+              "layer": "kpis",
+              "props": {
+                "title": "修图的度",
+                "left": "原图 / Original",
+                "middle": "合理美化 / Good enhancement",
+                "right": "虚假宣传 / Misleading",
+                "value": 54
+              },
+              "animation": "gauge_in",
+              "placement": {
+                "x": 0,
+                "y": 120,
+                "scale": 0.88
+              }
+            },
+            {
+              "type": "risk_warning",
+              "layer": "kpis",
+              "props": {
+                "title": "不能无中生有",
+                "label": "风险警告 / Risk warning",
+                "metric": "退货率↑"
+              },
+              "animation": "warning_pop",
+              "placement": {
+                "x": 0,
+                "y": -90,
+                "scale": 0.72
+              }
+            }
+          ],
+          "keywords": [
+            "修图边界",
+            "双语风险",
+            "退货率"
+          ]
+        },
+        {
+          "id": "s08",
+          "start": 44,
+          "duration": 7,
+          "voiceover": "那AI生图的，现在的AI生图，不管是你用现在的专业的工具也好，我觉得它的一致性是可以保持的，相当OK的。你就可以把它理解为一个更加高级的Photoshop。",
+          "subtitle": {
+            "zh": "现在专业 AI 生图工具在一致性上已经相当可用，本质上是更高级的修图工具",
+            "en": "Professional AI tools are now consistent enough to function like advanced retouching systems."
+          },
+          "overlays": [
+            {
+              "type": "data_metric_card",
+              "layer": "kpis",
+              "props": {
+                "rows": [
+                  {
+                    "label": "一致性",
+                    "sublabel": "CONSISTENCY",
+                    "value": "可保持",
+                    "icon": "✓"
+                  },
+                  {
+                    "label": "工具成熟度",
+                    "sublabel": "TOOL READINESS",
+                    "value": "专业级",
+                    "icon": "AI"
+                  }
+                ],
+                "totalLabel": "CORE IDEA",
+                "unitLabel": "理解方式 / Mental model",
+                "totalValue": "高级PS",
+                "accent": "green"
+              },
+              "animation": "metric_card_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 64
+              }
+            }
+          ],
+          "keywords": [
+            "专业工具",
+            "双语数据卡",
+            "高级PS"
+          ]
+        },
+        {
+          "id": "s09",
+          "start": 51,
+          "duration": 7,
+          "voiceover": "那当然它也会出错，也会有一致性保持的不好的情况，那你不要选择那些图就好了，你把那些图剔除掉，不就可以了吗。",
+          "subtitle": {
+            "zh": "AI 也会出错，但这不等于不能用；你只需要把不稳定的图筛掉",
+            "en": "AI can fail, but that only means you need a filtering step."
+          },
+          "overlays": [
+            {
+              "type": "funnel_select",
+              "layer": "cards",
+              "props": {
+                "title": "筛掉不稳定图",
+                "from": "8张候选图 / 8 candidates",
+                "to": "3张可用图 / 3 keepers",
+                "items": [
+                  "候选01",
+                  "候选02",
+                  "候选03",
+                  "候选04",
+                  "候选05",
+                  "候选06",
+                  "候选07",
+                  "候选08"
+                ]
+              },
+              "animation": "funnel_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 64
+              }
+            }
+          ],
+          "keywords": [
+            "筛选思路",
+            "双语漏斗",
+            "人工把关"
+          ]
+        },
+        {
+          "id": "s10",
+          "start": 58,
+          "duration": 7,
+          "voiceover": "你不管是衣服的这个特写镜头也好，还是别的一些商品，其实特写镜头已经可以做到很好很好的还原度了。",
+          "subtitle": {
+            "zh": "商品特写已经能做到很高还原度",
+            "en": "Product close-ups can already reach very high visual fidelity."
+          },
+          "overlays": [
+            {
+              "type": "price_kpi",
+              "layer": "kpis",
+              "props": {
+                "value": "高还原",
+                "label": "商品特写 / Product close-ups",
+                "tone": "gold"
+              },
+              "animation": "scale_pop"
+            }
+          ],
+          "keywords": [
+            "特写镜头",
+            "双语KPI",
+            "高还原"
+          ]
+        },
+        {
+          "id": "s11",
+          "start": 65,
+          "duration": 7,
+          "voiceover": "包括前段时间我看到网上也非常火，就是人物面部的那个真实感的还原，就是用可某灵的模型，已经可以做到非常非常好了，就是很多人都在下面发，我根本分辨不出来，对吧，这已经有这个迹象。",
+          "subtitle": {
+            "zh": "人物面部真实感的还原也已经非常强，评论区开始出现“根本分辨不出来”",
+            "en": "Facial realism is now strong enough that viewers openly say they cannot tell anymore."
+          },
+          "overlays": [
+            {
+              "type": "chat_bubble",
+              "layer": "cards",
+              "props": {
+                "bubbles": [
+                  {
+                    "speaker": "评论区 / Comments",
+                    "text": "我根本分辨不出来",
+                    "tone": "accent"
+                  },
+                  {
+                    "speaker": "讨论热度 / Trend signal",
+                    "text": "人物真实感已经非常接近",
+                    "tone": "dark"
+                  }
+                ]
+              },
+              "animation": "cascade_in"
+            }
+          ],
+          "keywords": [
+            "人物面部真实感",
+            "双语评论",
+            "热议"
+          ]
+        },
+        {
+          "id": "s12",
+          "start": 72,
+          "duration": 8,
+          "voiceover": "而且你用电商的话，你可以选择啊，你可以选择那些一致性保持非常好的视频片段，你把那些一致性保持的非常不OK，或者说有一些涉及到虚假宣传的片段，你人为的把它删除掉。",
+          "subtitle": {
+            "zh": "在电商里，你可以只保留一致性好的片段，把有风险的片段删掉",
+            "en": "In e-commerce, keep the clips with strong consistency and cut the risky ones."
+          },
+          "overlays": [
+            {
+              "type": "funnel_select",
+              "layer": "cards",
+              "props": {
+                "title": "保留好片段，删除风险片段",
+                "from": "多段候选视频 / Many clips",
+                "to": "可商用片段 / Usable clips",
+                "items": [
+                  "片段01",
+                  "片段02",
+                  "片段03",
+                  "片段04",
+                  "片段05",
+                  "片段06",
+                  "片段07",
+                  "片段08"
+                ]
+              },
+              "animation": "funnel_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 64
+              }
+            }
+          ],
+          "keywords": [
+            "视频片段筛选",
+            "双语场景",
+            "电商应用"
+          ]
+        },
+        {
+          "id": "s13",
+          "start": 80,
+          "duration": 8,
+          "voiceover": "你就是随便用手机去拍一张，那种手机质感的图，我们可以后期再开发这样的agent嘛，就是你拍一张图啊，你直接丢给这个agent，那这个agent就可以帮你还原出来，那种广告质感的，甚至于用模特去展示你的商品对吧。",
+          "subtitle": {
+            "zh": "手机随拍的图，后续完全可以通过 agent 转成广告质感，甚至延展成模特展示",
+            "en": "A casual phone shot can later be turned by an agent into an ad-grade image or even a model-style presentation."
+          },
+          "overlays": [
+            {
+              "type": "metric_flow_compare",
+              "layer": "kpis",
+              "props": {
+                "left": {
+                  "label": "PHONE SHOT",
+                  "value": "手机随拍",
+                  "caption": "原始拍摄素材",
+                  "tone": "light"
+                },
+                "right": {
+                  "label": "AD VISUAL",
+                  "value": "广告质感",
+                  "caption": "Agent 增强输出",
+                  "tone": "green"
+                },
+                "arrowLabel": "AGENT"
+              },
+              "animation": "metric_flow_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 72,
+                "marginY": 64
+              }
+            }
+          ],
+          "keywords": [
+            "手机拍照",
+            "双语流程",
+            "广告质感"
+          ]
+        },
+        {
+          "id": "s14",
+          "start": 88,
+          "duration": 8,
+          "voiceover": "我觉得可以获得一个很好的一个曝光，而且你的整个效率也非常高。再提到比如说，比如说你去卖二手车，那我卖二手车的过程中，如果说你的流水比较大，你是不是会涉及到你的车比较多，那如果你一辆一辆车的去拍摄那种广告的质感图，那其实还是一个蛮费功夫的一件事情。",
+          "subtitle": {
+            "zh": "曝光和效率都能提升，尤其像二手车这种高 SKU、重上架的场景更明显",
+            "en": "The gains are even clearer in high-volume listing workflows like used cars."
+          },
+          "overlays": [
+            {
+              "type": "focus_list_stack",
+              "layer": "cards",
+              "props": {
+                "items": [
+                  {
+                    "title": "车多",
+                    "subtitle": "HIGH SKU",
+                    "icon": "01"
+                  },
+                  {
+                    "title": "拍摄慢",
+                    "subtitle": "SHOOTING COST",
+                    "icon": "02"
+                  },
+                  {
+                    "title": "上架急",
+                    "subtitle": "LISTING SPEED",
+                    "icon": "03"
+                  }
+                ],
+                "tone": "green"
+              },
+              "animation": "stack_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 96,
+                "marginY": 72
+              }
+            }
+          ],
+          "keywords": [
+            "二手车案例",
+            "双语议程卡",
+            "高SKU"
+          ]
+        },
+        {
+          "id": "s15",
+          "start": 96,
+          "duration": 9,
+          "voiceover": "你把手机拍的这张图直接通过相册，传到这个飞书的机器人对话框，那这个机器人对话框直接给你返回一张广告级别的质感的这个照片，那你可能在收车回去的路上，你就已经完成了商品的上架。",
+          "subtitle": {
+            "zh": "手机拍照 -> 发飞书机器人 -> 返回广告图 -> 回程路上完成上架",
+            "en": "Phone photo in, Feishu bot returns an ad-grade image, and the listing gets finished on the way back."
+          },
+          "overlays": [
+            {
+              "type": "logic_flow_loop",
+              "layer": "cards",
+              "props": {
+                "title": "电商即时上架工作流",
+                "subtitle": "PHONE -> FEISHU -> AI -> LISTING",
+                "steps": [
+                  {
+                    "title": "拍图",
+                    "subtitle": "PHONE",
+                    "icon": "拍摄",
+                    "tone": "blue"
+                  },
+                  {
+                    "title": "飞书机器人",
+                    "subtitle": "BOT",
+                    "icon": "飞书",
+                    "tone": "gold"
+                  },
+                  {
+                    "title": "返回广告图",
+                    "subtitle": "OUTPUT",
+                    "icon": "图文",
+                    "tone": "green"
+                  },
+                  {
+                    "title": "商品上架",
+                    "subtitle": "LISTING",
+                    "icon": "上架",
+                    "tone": "red"
+                  }
+                ],
+                "loop": false
+              },
+              "animation": "logic_flow_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 128,
+                "marginY": 72
+              }
+            }
+          ],
+          "keywords": [
+            "飞书机器人",
+            "双语流程图",
+            "即时上架"
+          ]
+        },
+        {
+          "id": "s16",
+          "start": 105,
+          "duration": 8,
+          "voiceover": "比如说哪些有细节有问题的地方，你也可以拍照，我也可以在保留瑕疵的基础上，能够给你完成一个比较好的打光，或者说产品的质感，那这整个用户的，我觉得就是顾客的体验，是直接被拉高了一个层级的。",
+          "subtitle": {
+            "zh": "可以保留瑕疵信息，同时优化打光和质感，这会直接拉高顾客体验",
+            "en": "You can preserve flaw details while still improving lighting and finish, which lifts customer experience."
+          },
+          "overlays": [
+            {
+              "type": "before_after_compare",
+              "layer": "cards",
+              "props": {
+                "title": "保留瑕疵，也能提升质感",
+                "beforeLabel": "原始记录 / Raw record",
+                "afterLabel": "优化展示 / Improved display",
+                "beforeText": "瑕疵保留",
+                "afterText": "打光与质感增强"
+              },
+              "animation": "compare_in"
+            }
+          ],
+          "keywords": [
+            "瑕疵保留",
+            "双语前后对比",
+            "顾客体验"
+          ]
+        },
+        {
+          "id": "s17",
+          "start": 113,
+          "duration": 10,
+          "voiceover": "将复杂的这个工作流，就是把它拆解成一个一个一个的啊，工作的阶段把它拆解开，看哪些步骤我是可以交给AI，哪些步骤是需要人为的干预，就让同一个岗位，能够产生呃更加多倍的一个产出，而不是让整个团队的规模缩小，而是让同样的人能去做更多的事情。",
+          "subtitle": {
+            "zh": "关键不是缩团队，而是拆工作流：哪些给 AI，哪些留给人工，让同样的人做更多事",
+            "en": "The goal is not a smaller team, but a workflow split where AI handles repeatable stages and humans keep judgment."
+          },
+          "overlays": [
+            {
+              "type": "focus_list_stack",
+              "layer": "cards",
+              "props": {
+                "items": [
+                  {
+                    "title": "拆阶段",
+                    "subtitle": "BREAK INTO STAGES",
+                    "icon": "01"
+                  },
+                  {
+                    "title": "交给 AI",
+                    "subtitle": "AUTOMATE",
+                    "icon": "02"
+                  },
+                  {
+                    "title": "人工干预",
+                    "subtitle": "HUMAN JUDGMENT",
+                    "icon": "03"
+                  },
+                  {
+                    "title": "多倍产出",
+                    "subtitle": "MORE OUTPUT",
+                    "icon": "04"
+                  }
+                ],
+                "tone": "green"
+              },
+              "animation": "stack_in",
+              "safeBounds": {
+                "enabled": true,
+                "marginX": 96,
+                "marginY": 72
+              }
+            }
+          ],
+          "keywords": [
+            "工作流拆解",
+            "双语解释卡",
+            "AI与人工协同"
+          ]
+        },
+        {
+          "id": "s18",
+          "start": 123,
+          "duration": 8,
+          "voiceover": "有哪些可以用AI去提高你的效率的，我觉得我们可以一起讨论，或者说你可以私信我，我看有没有哪些可以一起我们一起完成的部分，也可以在下面留言，提出你的需求。",
+          "subtitle": {
+            "zh": "有哪些环节适合用 AI 提效，欢迎私信或留言，一起把需求拆出来",
+            "en": "If you want to figure out where AI can improve your workflow, message me or leave a comment."
+          },
+          "overlays": [
+            {
+              "type": "cta_comment",
+              "layer": "cards",
+              "props": {
+                "title": "你有哪些流程想用 AI 提效？",
+                "subtitle": "Message me or leave a comment. We can break the workflow down together.",
+                "actions": [
+                  "留言",
+                  "私信",
+                  "一起拆需求"
+                ]
+              },
+              "animation": "cta_pop"
+            }
+          ],
+          "keywords": [
+            "CTA",
+            "双语收口",
+            "需求讨论"
+          ]
+        }
+      ]
+    }
+  ]
+}

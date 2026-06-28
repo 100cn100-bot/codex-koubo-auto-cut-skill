@@ -1,0 +1,8 @@
+interface:
+  display_name: "Haoqixiaowu Talking Bilingual"
+  short_description: "按原稿节奏拆双语口播分镜"
+  brand_color: "#38D978"
+  default_prompt: "Use $haoqixiaowu-talking-bilingual to turn my spoken-video script into bilingual Chinese-English storyboard scenes while preserving the original speaking rhythm."
+
+policy:
+  allow_implicit_invocation: true
